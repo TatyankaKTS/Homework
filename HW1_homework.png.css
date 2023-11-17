@@ -4,7 +4,7 @@
 }
 
 .first {
-    width: 55%;
+    width: 50%;
     background-color: beige;
     font-size: 20px;
     font-style: normal;
@@ -12,4 +12,8 @@
     margin: 25px;
     position: absolute;   
     align-items: center;
+}
+
+.second {
+    color: blue;
 }
