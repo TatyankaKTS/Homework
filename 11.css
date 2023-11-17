@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Open+Sans:wght@400;700&display=swap'); 
+ 
+* { 
+ margin: 0; 
+ padding: 0; 
+ border: 0; 
+ text-decoration: none; 
+} 
+ 
+:root { 
+ --Dark: #0b1d26; 
+} 
+ 
+body { 
+ background: var(--Dark); 
+} 
+ 
+.container { 
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+ flex-wrap: wrap; 
+ box-sizing: border-box; 
+ padding: 40px; 
+ gap: 130px; 
+ min-height: 100vh; 
+ font-family: 'Open Sans', sans-serif; 
+} 
+ 
+.container__left { 
+ width: 100%; 
+ max-width: 640px; 
+ height: 100%; 
+ min-height: 712px; 
+ box-sizing: border-box; 
+ padding: 30px; 
+ position: relative; 
+} 
+ 
+.job { 
+ display: flex; 
+ align-items: center; 
+ gap: 30px; 
+ margin-top: 128px; 
+} 
+ 
+.job__line { 
+ width: 70px; 
+ height: 2px; 
+ background: #f7df1e; 
+} 
+ 
+.job__name { 
+ color: var(--Primary, #f7df1e); 
+ font-size: 14px; 
+ font-style: normal; 
+ font-weight: 700; 
+ line-height: 32.2px; /* 230% */ 
+ letter-spacing: 4.2px; 
+ text-transform: uppercase; 
+} 
+ 
+.number { 
+ color: var(--White, #fff); 
+ font-size: 200px; 
+ font-style: normal; 
+ font-weight: 700; 
+ line-height: 0%; /* 0px */ 
+ letter-spacing: 4.2px; 
+ text-transform: uppercase; 
+ opacity: 0.1; 
+ position: absolute; 
+ top: 185px; 
+ left: -71px; 
+} 
+ 
+.title { 
+ margin-top: 22px; 
+ color: var(--White, #fff); 
+ font-family: 'Brygada 1918', serif; 
+ font-size: 64px; 
+ font-style: normal; 
+ font-weight: 400; 
+ line-height: 70.4px; 
+} 
+ 
+.description { 
+ margin-top: 65px; 
+ color: var(--White, #fff); 
+ font-size: 16px; 
+ font-style: normal; 
+ font-weight: 400; 
+ line-height: 36.8px; 
+} 
+ 
+.link { 
+ margin-top: 16px; 
+ color: var(--Primary, #f7df1e); 
+ font-family: Open Sans; 
+ font-size: 17px; 
+ font-style: normal; 
+ font-weight: 400; 
+ line-height: 39.1px; 
+ display: flex; 
+ align-items: center; 
+ gap: 10px; 
+} 
+ 
+.link > div:nth-child(2) { 
+ color: var(--Primary, #f7df1e); 
+ font-family: 'Arial', serif; 
+ font-size: 25.5px; 
+ font-style: normal; 
+ font-weight: 400; 
+ line-height: 25.5px; 
+ padding-bottom: 2px; 
+}

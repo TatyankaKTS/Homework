@@ -1,0 +1,15 @@
+.div {
+    font-size: 20px;
+   
+}
+
+.first {
+    width: 50%;
+    background-color: beige;
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 13px;
+    margin: 25px;
+    position: absolute;   
+    align-items: center;
+}

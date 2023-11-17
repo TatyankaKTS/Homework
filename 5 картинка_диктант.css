@@ -1,0 +1,21 @@
+div {
+    font-size: 18px;
+    font-style: oblique;
+    font-family: "Segoe Script";
+  
+}
+.one {
+    background-image: url(https://celes.club/uploads/posts/2022-11/1667303731_1-celes-club-p-tetradnii-list-v-kletku-fon-oboi-1.jpg);
+    width: 50%;
+    font-size: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.two {
+    text-align: center;
+}
