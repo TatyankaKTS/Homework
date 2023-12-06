@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(255, 254, 254);
+    font-family: "Arial";
+}
+
+a {
+    color: rgb(28, 131, 222);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    padding: 30px 50px;
+    height: 390px;
+    width: 380px;
+    position: relative;
+}
+
+.t_1 {
+    margin-bottom: -20px;
+}
+
+.t_2 {
+    line-height: 1.7;
+    margin-bottom: -15px;
+}
+
+.t_3 {
+    line-height: 1.4;
+    font-size: 17pt;
+    background: -webkit-gradient(linear, right top, right bottom, color-stop(0.2, rgb(0, 0, 0)), color-stop(1, #FFF));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.t_4 {
+    line-height: 1.4;
+    color: #989797;
+    margin-top: -10px;
+}
+
+.post:after {
+    background-color: #0f99e9;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    content: "";
+    display: block;
+    height: 5px;
+}

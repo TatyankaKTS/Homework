@@ -1,0 +1,32 @@
+body {
+    font-family: "Arial";
+    background-color: rgb(110, 255, 255);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.wrap {
+    text-align: center;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    padding: 20px 10px;
+    height: 350px;
+    width: 380px;
+}
+
+.t1 {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin: -5px 0px 20px 0px;
+}
+
+.t2 {
+    color: rgb(0, 0, 0)
+}
