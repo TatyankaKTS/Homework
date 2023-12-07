@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    }
+
+html, body {
+    font-family: "Arial";
+    background-color: rgb(255, 6, 222);
+}
+
+
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    padding-left: 30px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    z-index: 2;
+}
+
+
+.header__nav a {
+    margin-right: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+.header__nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: 5px solid rgb(60, 6, 255)
+}
+
